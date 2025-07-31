@@ -281,6 +281,25 @@ config CALIXTO_DDR4_2GB
 	help
 	 Enabling this will indicate that system has 2GB DDR4 memory.
 
+config CALIXTO_DDR3L_512MB
+	bool "512MB DDR3L Memory"
+	default no
+	help
+	 Enabling this will indicate that system has 512MB DDR3L memory.
+
+config CALIXTO_DDR4_256MB
+	bool "256MB DDR3L Memory"
+	default no
+	help
+	 Enabling this will indicate that system has 256MB DDR3L memory.
+
+config CALIXTO_DDR3L_1GB
+	bool "2GB DDR4 Memory"
+	default no
+	help
+	 Enabling this will indicate that system has 1GB DDR3L memory.
+
+
 config MULTI_DTB_FIT_UNCOMPRESS_SZ
 	default 0x80000 if TARGET_HIHOPE_RZG2
 	default 0x80000 if TARGET_SALVATOR_X
